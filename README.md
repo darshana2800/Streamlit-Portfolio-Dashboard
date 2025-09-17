@@ -4,10 +4,20 @@ A Streamlit web app to visualize and analyze portfolio performance. Includes uni
 
 ## Features
 
-- Interactive dashboard built with Streamlit
-- Upload and analyze trade/portfolio data
-- Visualize prices, returns, and analytics
-- Unit tests for core functionality (pytest)
+- Upload trade history as a CSV and validate data
+- Reconstruct daily share positions per ticker
+- Fetch real-time or historical prices automatically via Yahoo Finance (`yfinance`)
+- Handle weekends and holidays with clean, aligned price data
+- Visualize portfolio value over time with an equity curve
+- Display key performance metrics:
+  - Time-Weighted Return (TWR)
+  - Annualized Volatility
+  - Maximum Drawdown
+  - Total Value
+- Modular Python codebase with unit tests (pytest)
+- Built with Streamlit for a fast, interactive UI
+
+## How It Works
 
 **Input**  
   - A CSV of trades with columns like `date`, `ticker`, `side`, `qty`, and `price`.
@@ -26,7 +36,7 @@ A Streamlit web app to visualize and analyze portfolio performance. Includes uni
     - **Time-Weighted Return (TWR)**
     - **Annualized Volatility**
     - **Maximum Drawdown**
-
+  - Interactive Overview page in Streamlit showing equity curve and metrics.
 
 ## Installation
 
