@@ -10,7 +10,6 @@ A Streamlit web app to visualize and analyze portfolio performance. Includes uni
 - Unit tests for core functionality (pytest)
 
 
-```markdown
 ## Installation
 
 Clone the repo and install dependencies:
@@ -19,9 +18,11 @@ Clone the repo and install dependencies:
 git clone https://github.com/darshana2800/Streamlit-Portfolio-Dashboard.git
 cd Streamlit-Portfolio-Dashboard
 pip install -r requirements.txt
+```
 
-```markdown
+
 ## Running the App
 
 ```bash
 streamlit run home.py
+```
